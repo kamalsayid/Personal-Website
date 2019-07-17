@@ -1,0 +1,437 @@
+/* CSS */
+body {
+    margin: 0;
+}
+
+
+
+.logo {
+  max-width: 100%;
+  max-height: 99%;
+
+  background-image: url("images/Logokamal.jpg");
+}
+
+
+
+
+
+body {
+    margin: 0;
+  }
+  
+  /* Optional. To make navbar looks nicer */
+  #main-navbar {
+    font: 1.15em Arial;
+    background: rgb(7, 8, 85);
+    
+  }
+  
+  /* Remove default <ul> margin and padding */
+  #main-navbar ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #main-navbar li {
+    /* Use inline-block so that every element can have its height and width property */
+    display: inline-block;
+    /* Give padding so there's space above / below / on the sides of the menu */
+    padding: 10px 20px;
+  }
+  
+  #main-navbar li a {
+    /* Remove the underline for the link */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  #main-navbar li a:hover {
+    /* When hovering around the menu, there'll be bottom border 3px width, distance is 3px from the menu */
+    border-bottom: 3px solid;
+    padding-bottom: 3px;
+    /* Optional, brighter color so the menu looks like highlighted */
+    color: rgb(34, 34, 48);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#title {
+  width: 100%;
+    opacity: 0.8;
+    margin: 0%;
+    height: 350px;
+    background-image: url("https://www.meed.com/wp-content/uploads/2017/09/Solar-power_dreamstime_l_40332248-780x433.jpg");
+    font-style: oblique;
+    font-size-adjust: initial;
+    background-size: cover;
+    background-position: center;
+}
+
+#title {
+    color: white;
+    margin: 0;
+    padding: 50px 20px;
+  font-style: italic;
+  font-weight:bold;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid {  
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.col {
+	background: wheat;
+    padding: 30px;
+}
+.fluid {
+	flex: 1 1;
+  -ms-flex: 1 1;
+  -webkit-flex: 1 1;
+}
+.fixed {
+  background: -webkit-linear-gradient(bottom, rgb(255, 255, 255), rgb(255, 255, 255));
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
+  flex: 0 0 400px;
+  -ms-flex: 0 0 400px;
+  -webkit-flex: 0 0 400px;
+  -webkit-transition: all 1s linear 0s;
+  transition: all 1s linear 0s;
+  background-image: url("");
+
+
+}
+
+.fixed:hover { 
+  background: rgb(127, 214, 230); 
+  flex: 2 0;
+  -ms-flex: 2 0;
+  -webkit-flex: 2 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#navigation {
+    color: whitesmoke;
+    text-align: right;
+    padding: 0 20px;
+}
+
+#home-left {
+    width: 100%;
+    
+    margin: 0 20px 20px;
+    float: left;
+}
+
+#home-right {
+    padding: 0 30px;
+  color: #010101;
+   text-align: left;
+   
+  
+     background-image: url("");
+   
+    
+}
+
+#pick {
+    padding: 10px 50px;
+ 
+    background-color: whitesmoke;;
+    cursor:pointer;
+    border: none;
+    outline: none;
+color: blue;;
+  font-family: 
+
+}
+
+#footer {
+    clear: left;
+    padding: 5px 20px;
+    color: white;
+    background-color: #32A8EC;
+  
+  
+}
+
+#spotlight, #gallery {
+    display: none;
+}
+
+#gallery .card {
+    width: 30%;
+    margin-left: 2.5%;   
+}
+
+.container {
+    max-width: 650px;
+    margin: auto;
+}
+
+.home2{
+  
+   
+  
+}
+
+.page-header2{
+  color: black;
+  
+}
+.page {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-header {
+    color: black;
+
+  background-color: rgb(188, 229, 240);
+  text-align: left;
+ 
+  
+   background-image: url("");
+
+
+
+
+   
+   
+  
+}
+.p { background-color: #F4F1F1;
+  
+}
+.page-text, .card-text {
+    padding: 0 10px;
+}
+
+.card {
+    width: 47%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+.card-image {
+    width: 100%;
+}
+#logo{
+	position:top;
+	top:0;
+	left:0px;
+ 
+}
+
+
+.main-margins{
+  margin:3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.firstcontainer{
+
+display:flexbox;
+justify-content: flex-start;
+
+background-color:rgb(178, 230, 240);  
+
+
+}
+
+
+
+
+
+
+
+/* the about page starts from here
+*/
+
+
+.div3{
+
+opacity: 0.5;
+
+
+
+
+}
+
+
+#homepagetitle{
+
+  background-image: url("https://www.californiabeaches.com/wp-content/uploads/2016/11/santamonica-1000x563.jpg");
+  height:300px;
+  color: aliceblue;
+  padding: 40px 20px 0px 20px;
+  
+}
+
+#div2{
+  float: left;
+  width: 25%;
+  padding: 5px;
+
+
+
+}
+
+#textbox{
+
+
+  float: right;
+  width: 60%;
+  padding: 5px;
+
+
+}
+
+
+
+
+
+#div3{
+
+
+
+  float: right;
+  width: 50%;
+  padding:;
+
+
+
+
+
+
+
+}
+
+
+#profile{
+
+
+  float: left;
+  width: 50%;
+  padding: 5px;
+
+
+
+
+}
+
+
+
+
+
+
+/* the contact page starts from here
+*/
+
+
+
+
+
+
+
+#title100{
+
+  background-image:  url("https://ak4.picdn.net/shutterstock/videos/6868444/thumb/1.jpg");
+  height:300px;
+  color: aliceblue;
+  padding: 0px 0px 0px 0px;
+  
+}
+
+
+
+
+
+
+
+
+
+
