@@ -1,0 +1,61 @@
+/* CSS */
+body {
+    margin: 0;
+
+}
+
+
+/* The TopNav bar section CSS*/
+
+  #main-navbar {
+    font: 1.15em Arial;
+  background-image:url("../images/Ovesco-Community-Energy-Lewes-Harveys-Depot-Solar-Panels-Lewes.jpg");
+    height:350px;
+    margin-top: 0px;
+    opacity: 1;
+    
+  }
+  
+
+  #main-navbar ul {
+    padding: 0;
+  }
+  
+  #main-navbar li {
+   
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  #main-navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  #main-navbar li a:hover {
+    border-bottom: 3px solid;
+    padding-bottom: 3px;
+    color: rgb(25, 22, 31);
+}
+
+
+
+#sustainability{
+ 
+  background-image: url("../images/CFIB-banner.jpg");
+height: 260px;;
+opacity: 0.7;
+
+}
+
+#textbox{
+
+  color: #4444d1;
+  position: relative;
+  text-align:center;
+
+  background-color: rgb(194, 241, 226);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 120%;
+  animation-duration: 6000ms;
+}

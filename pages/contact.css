@@ -1,0 +1,50 @@
+/* CSS */
+body {
+    margin: 0;
+
+}
+
+
+/* The TopNav bar section CSS*/
+
+  #main-navbar {
+    font: 1.15em Arial;
+  background-image:url("../images/reach_us.jpeg");
+    height:350px;
+    margin-top: 0px;
+    opacity: 1;
+    
+  }
+  
+
+  #main-navbar ul {
+    padding: 0;
+  }
+  
+  #main-navbar li {
+   
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  #main-navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  #main-navbar li a:hover {
+    border-bottom: 3px solid;
+    padding-bottom: 3px;
+    color: rgb(25, 22, 31);
+}
+
+
+#title100{
+
+
+    position: relative; 
+    color: rgb(35, 35, 197);
+     padding: 0px 0px 0px 400px;
+     text-align: center;
+
+}
